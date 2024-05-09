@@ -116,7 +116,11 @@ class _AllPostsState extends State<AllPosts> {
       floatingActionButton: FloatingActionButton(
         onPressed: () => Navigator.push(
             context, MaterialPageRoute(builder: (_) => const UploadPost())),
-        child: const Icon(Icons.add),
+        child: const Icon(
+          Icons.add,
+          color: SU.backGroundContainerColor,
+        ),
+        backgroundColor: SU.backgroundColor,
       ),
     );
   }

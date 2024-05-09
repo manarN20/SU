@@ -3,6 +3,7 @@ import 'package:su_project/Admin/AdminHomePage.dart';
 import 'package:su_project/config/config.dart';
 import 'package:su_project/home/Authentication/register.dart';
 import 'package:su_project/home/Authentication/resetPassword.dart';
+import 'package:su_project/home/bottomNavigation.dart';
 import 'package:su_project/home/userHome.dart';
 import 'package:su_project/widgets/customTextFieldRegsiterPage.dart';
 import 'package:su_project/widgets/errorDialog.dart';
@@ -311,7 +312,8 @@ class _loginPage extends State<loginPage> {
         Route route = MaterialPageRoute(builder: (_) => const AdminHomePage());
         Navigator.pushAndRemoveUntil(context, route, (route) => false);
       } else {
-        Route route = MaterialPageRoute(builder: (_) => const HomePage());
+        Route route =
+            MaterialPageRoute(builder: (_) => BottomNavigationBarCustom());
         Navigator.pushAndRemoveUntil(context, route, (route) => false);
       }
     }).then((value) {});

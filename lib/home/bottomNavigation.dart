@@ -14,7 +14,7 @@ class BottomNavigationBarCustom extends StatefulWidget {
 class _BottomNavigationBarCustom extends State<BottomNavigationBarCustom> {
   final List<Widget> PagesDown = [
     const HomePage(),
-    const UserProfile(),
+    const ProfilePage(),
   ];
 
   int currentIndex = 0;

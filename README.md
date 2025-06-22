@@ -1,16 +1,16 @@
-# su_project
+# Smart University System (Graduation Project)
 
-A new Flutter project.
+A web-based system designed to improve the student experience by digitizing administrative services and academic follow-up. The system enables students to submit requests, view schedules and grades, and communicate efficiently with university staff.
 
-## Getting Started
+## Technologies Used:
+- HTML, CSS, JavaScript
+- PHP
+- MySQL
 
-This project is a starting point for a Flutter application.
+## Key Features:
+- Student/Admin login system  
+- Request submission & tracking  
+- Grade and schedule viewing  
+- Admin dashboard  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project was developed as part of the Computer Science graduation requirement, focusing on usability, efficiency, and student engagement.
